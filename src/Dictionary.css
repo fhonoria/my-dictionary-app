@@ -1,12 +1,12 @@
 .Dictionary-header {
   padding: 30px 0;
-  background-color: rgb(17, 169, 240);
-}
-
-.Button {
-  color: rgb(17, 169, 240);
+  background-color: #8fc1d4;
 }
 
 .Results {
   margin: 20px 150px 20px 200px;
+}
+
+h1 {
+  font-weight: 650 !important;
 }
