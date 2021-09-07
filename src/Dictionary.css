@@ -2,3 +2,11 @@
   padding: 30px 0;
   background-color: rgb(17, 169, 240);
 }
+
+.Button {
+  color: rgb(17, 169, 240);
+}
+
+.Results {
+  margin: 20px 150px 20px 200px;
+}

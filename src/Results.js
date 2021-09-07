@@ -1,13 +1,20 @@
 import React from "react";
+import Meaning from "./Meaning";
+import "./Results.css";
 
 export default function Results(props) {
   if (props.results) {
-    console.log(props.results);
-    console.log(props.results.meanings[0].partOfSpeech);
     return (
       <div className="Results">
-        <h2>{props.results.word}</h2>
-        <h3>{props.results.meanings[0].partOfSpeech}</h3>
+        {props.results.meanings.map(function (meaning, index) {
+          return (
+            <span key={index}>
+              <h2>{props.results.word}</h2>
+              <h3>{meaning.partOfSpeech}</h3>
+              <Meaning meaning={meaning} />
+            </span>
+          );
+        })}
       </div>
     );
   } else {

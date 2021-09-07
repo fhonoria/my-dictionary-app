@@ -43,14 +43,14 @@ export default function Dictionary() {
                 <input
                   type="submit"
                   value="Search"
-                  className="btn btn-primary"
+                  className="btn btn-light"
                 ></input>
               </div>
             </div>
           </form>
         </div>
       </div>
-      <div className="container">
+      <div className="container Results">
         <Results results={results} />
       </div>
     </div>
