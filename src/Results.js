@@ -1,5 +1,6 @@
 import React from "react";
 import Meaning from "./Meaning";
+import Phonetics from "./Phonetics";
 import "./Results.css";
 
 export default function Results(props) {
@@ -11,6 +12,7 @@ export default function Results(props) {
             <span key={index}>
               <h2>{props.results.word}</h2>
               <h3>{meaning.partOfSpeech}</h3>
+              <Phonetics phonetics={props.results.phonetics} />
               <Meaning meaning={meaning} />
             </span>
           );
