@@ -3,10 +3,17 @@
   background-color: #8fc1d4;
 }
 
-.Results {
-  margin: 20px 150px 20px 200px;
-}
-
 h1 {
   font-weight: 650 !important;
+}
+
+.Dictionary input {
+  border-radius: 6px;
+  color: #333;
+  border: 1px solid #ddd;
+  margin-top: 8px;
+}
+
+.Dictionary .Search-field {
+  color: #333;
 }

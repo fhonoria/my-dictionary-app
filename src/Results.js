@@ -9,12 +9,12 @@ export default function Results(props) {
       <div className="Results">
         {props.results.meanings.map(function (meaning, index) {
           return (
-            <span key={index}>
+            <section key={index}>
               <h2>{props.results.word}</h2>
               <h3>{meaning.partOfSpeech}</h3>
               <Phonetics phonetics={props.results.phonetics} />
               <Meaning meaning={meaning} />
-            </span>
+            </section>
           );
         })}
       </div>

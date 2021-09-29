@@ -33,9 +33,11 @@ export default function Dictionary() {
               <div className="col-4">
                 <h1>Dictionary</h1>
               </div>
-              <div className="col-4">
+              <div className="col-4 Search-field">
                 <input
                   type="text"
+                  placeholder="Search for a word"
+                  autoFocus
                   className="form-control shadow"
                   onChange={handleKeyword}
                 ></input>
