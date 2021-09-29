@@ -1,8 +1,9 @@
 .Meaning .Definition {
-  margin-bottom: 5px;
+  margin: 10px 0 5px 0;
 }
 
 .Meaning .Example {
   margin-bottom: 5px;
   font-style: italic;
+  opacity: 0.5;
 }
